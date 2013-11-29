@@ -13,7 +13,7 @@
 
     <groupId>nl.eveoh.sakai</groupId>
     <artifactId>sakai-mytimetable</artifactId>
-    <version>hdh-2.8.0-1.0.1</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -33,7 +33,7 @@
         <connection>scm:git:git@github.com:EdiaEducationTechnology/sakai-mytimetable.git</connection>
         <developerConnection>scm:git:git@github.com:EdiaEducationTechnology/sakai-mytimetable.git</developerConnection>
         <url>scm:git:git@github.com:EdiaEducationTechnology/sakai-mytimetable.git</url>
-        <tag>hdh-2.8.0-1.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
@@ -53,14 +53,14 @@
             <dependency>
                 <groupId>nl.eveoh.sakai</groupId>
                 <artifactId>sakai-mytimetable-api</artifactId>
-                <version>hdh-2.8.0-1.0.1</version>
+                <version>1.1-SNAPSHOT</version>
                 <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>nl.eveoh.sakai</groupId>
                 <artifactId>sakai-mytimetable-impl</artifactId>
-                <version>hdh-2.8.0-1.0.1</version>
+                <version>1.1-SNAPSHOT</version>
                 <scope>runtime</scope>
             </dependency>
 
