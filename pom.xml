@@ -31,9 +31,9 @@
     </modules>
 
     <scm>
-        <connection>scm:git:git@github.com:eveoh/sakai-mytimetable.git</connection>
-        <developerConnection>scm:git:git@github.com:eveoh/sakai-mytimetable.git</developerConnection>
-        <url>scm:git:git@github.com:eveoh/sakai-mytimetable.git</url>
+        <connection>scm:git:git@github.com:EdiaEducationTechnology/sakai-mytimetable.git</connection>
+        <developerConnection>scm:git:git@github.com:EdiaEducationTechnology/sakai-mytimetable.git</developerConnection>
+        <url>scm:git:git@github.com:EdiaEducationTechnology/sakai-mytimetable.git</url>
         <tag>HEAD</tag>
     </scm>
 
