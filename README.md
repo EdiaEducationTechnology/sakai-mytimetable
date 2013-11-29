@@ -31,7 +31,7 @@ file that specifies the location of your Tomcat installation.
 2. Build the MyTimetable tool using `mvn clean install sakai:deploy`. All the required files are put in the Tomcat home
 directory `$CATALINA_HOME`.
 
-3. Configure the tool in `sakai.properties`.
+3. Configure the tool in `local.properties`.
 
 4. Restart Tomcat
 
@@ -39,7 +39,7 @@ directory `$CATALINA_HOME`.
 
 ### Configuration
 
-Settings can be configured in `sakai.properties`, which is usually found in the $CATALINA_HOME/sakai folder. The
+Settings can be configured in `local.properties`, which is usually found in the $CATALINA_HOME/sakai folder. The
 following settings are used:
 
 ````
