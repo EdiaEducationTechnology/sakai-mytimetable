@@ -14,7 +14,7 @@ This tool is tested with Sakai 2.8.0 (Kernel 1.2.1).
 
 2. Unzip de archive in the Tomcat home directory `$CATALINA_HOME`.
 
-3. Configure the tool in `sakai.properties`.
+3. Configure the tool in `local.properties`.
 
 4. Restart Tomcat
 
