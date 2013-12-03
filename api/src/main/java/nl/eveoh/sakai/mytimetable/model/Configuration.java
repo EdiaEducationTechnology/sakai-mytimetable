@@ -20,6 +20,8 @@
 
 package nl.eveoh.sakai.mytimetable.model;
 
+import org.apache.commons.lang.StringUtils;
+
 /**
  * Configuration bean for the tool.
  * <p/>
@@ -82,7 +84,7 @@ public class Configuration {
     }
 
     public void setApiKey(String apiKey) {
-        this.apiKey = apiKey;
+        this.apiKey = StringUtils.trimToEmpty(apiKey);
     }
 
     public String getApiEndpointUri() {
@@ -90,7 +92,7 @@ public class Configuration {
     }
 
     public void setApiEndpointUri(String apiEndpointUri) {
-        this.apiEndpointUri = apiEndpointUri;
+        this.apiEndpointUri = StringUtils.trimToEmpty(apiEndpointUri);
     }
 
     public String getApplicationUri() {
@@ -98,7 +100,7 @@ public class Configuration {
     }
 
     public void setApplicationUri(String applicationUri) {
-        this.applicationUri = applicationUri;
+        this.applicationUri = StringUtils.trimToEmpty(applicationUri);
     }
 
     public String getApplicationTarget() {
@@ -106,7 +108,7 @@ public class Configuration {
     }
 
     public void setApplicationTarget(String applicationTarget) {
-        this.applicationTarget = applicationTarget;
+        this.applicationTarget = StringUtils.trimToEmpty(applicationTarget);
     }
 
     public int getNumberOfEvents() {
