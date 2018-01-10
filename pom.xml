@@ -88,7 +88,7 @@
             <id>eveoh-public</id>
             <name>Eveoh public Maven repo</name>
             <layout>default</layout>
-            <url>http://dl.eveoh.nl/maven2</url>
+            <url>https://dl.eveoh.nl/maven2</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
